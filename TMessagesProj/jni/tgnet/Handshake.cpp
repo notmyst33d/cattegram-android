@@ -363,14 +363,14 @@ void Handshake::processHandshakeResponse(TLObject *message, int64_t messageId) {
                         serverPublicKeysFingerprints.push_back(0xb25898df208d2603);
                     } else {
                         serverPublicKeys.emplace_back("-----BEGIN RSA PUBLIC KEY-----\n"
-                                                      "MIIBCgKCAQEA6LszBcC1LGzyr992NzE0ieY+BSaOW622Aa9Bd4ZHLl+TuFQ4lo4g\n"
-                                                      "5nKaMBwK/BIb9xUfg0Q29/2mgIR6Zr9krM7HjuIcCzFvDtr+L0GQjae9H0pRB2OO\n"
-                                                      "62cECs5HKhT5DZ98K33vmWiLowc621dQuwKWSQKjWf50XYFw42h21P2KXUGyp2y/\n"
-                                                      "+aEyZ+uVgLLQbRA1dEjSDZ2iGRy12Mk5gpYc397aYp438fsJoHIgJ2lgMv5h7WY9\n"
-                                                      "t6N/byY9Nw9p21Og3AoXSL2q/2IJ1WRUhebgAdGVMlV1fkuOQoEzR7EdpqtQD9Cs\n"
-                                                      "5+bfo3Nhmcyvk5ftB0WkJ9z6bNZ7yxrP8wIDAQAB\n"
+                                                      "MIIBCgKCAQEAuCs2d6xDW01/fJmJLxe7iN6N5cDARt2xsxZO9/Iz53HaFZyqYCOr\n"
+                                                      "35OLzf5iKMhA8O72qy8VNdUfoKak1LcNnP0bsIkwo3mHsvUAhmIwOTV/jrplytXy\n"
+                                                      "XchpQs98fgI4THXre81C1OIbs4yL7KJca7pjOd6657EgMOAvZ8lgGbMPhMig3+rV\n"
+                                                      "Q5pHJJLm9C4iq1u6fvPLL5sqc/s5SzQciXoT5D8RHBpIM7p6kS3cyLufLTPsassh\n"
+                                                      "/LKv4bbQJiSXr57TS8D3FRnpdtG/O5PKUXPCBDyusTD1Qp3g1/950vfjVaKY+vo5\n"
+                                                      "a1N4T5RC+/H/VdK6vqw9d+AseuSmFIWDJwIDAQAB\n"
                                                       "-----END RSA PUBLIC KEY-----");
-                        serverPublicKeysFingerprints.push_back(0xd09d1d85de64fd85);
+                        serverPublicKeysFingerprints.push_back(0x97b5df763e13aeff);
                     }
                 }
 
